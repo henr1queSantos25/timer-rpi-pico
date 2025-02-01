@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/timer-rpi-pico.hex'
+elf = 'build/timer-rpi-pico.elf'
