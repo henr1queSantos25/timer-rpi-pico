@@ -25,7 +25,7 @@ Este repositório contém um exemplo de código para a implementação de um **s
 
 ## 🗂️ Estrutura do Repositório  
 
-- `main.c`: Código-fonte principal contendo a implementação do semáforo.  
+- `timer-rpi-pico.c`: Código-fonte principal contendo a implementação do semáforo.  
 - `README.md`: Documentação detalhada do projeto.  
 - `diagram.json`: Configuração do circuito para simulação no **Wokwi**.  
 
