@@ -54,6 +54,3 @@ O sistema **simula um semáforo**, alternando entre **três LEDs** com um interv
 
 - **Henrique Santos**  
 - **[LinkedIn](https://www.linkedin.com/in/dev-henriqueo-santos/)**  
-
----
-
