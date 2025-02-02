@@ -1,4 +1,4 @@
-# 🚦 Atividade 1: Semáforo com Temporizador Periódico  
+# 🚦Semáforo com Temporizador Periódico  
 
 Este repositório contém um exemplo de código para a implementação de um **semáforo** utilizando temporizadores periódicos no **Raspberry Pi Pico W**, com simulação no **Wokwi**.  
 
