@@ -49,25 +49,11 @@ O sistema **simula um semáforo**, alternando entre **três LEDs** com um interv
 | LED Amarelo | GP12          |  
 | LED Vermelho | GP13          |  
 
-## 📜 Código Simplificado  
 
-```c
-bool repeating_timer_callback(struct repeating_timer *t) {
-    if (counter == 1) setLEDs(0, 0, 1);  // Vermelho  
-    else if (counter == 2) setLEDs(0, 1, 0);  // Amarelo  
-    else setLEDs(1, 0, 0);  // Verde  
+## 💡 Desenvolvido por  
 
-    counter = (counter % 3) + 1; // Alterna os estados  
-    return true;
-}
+- **Henrique Santos**  
+- **[LinkedIn](https://www.linkedin.com/in/dev-henriqueo-santos/)**  
 
-int main() {
-    initLEDs();
-    struct repeating_timer timer;
-    add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
+---
 
-    while (true) {
-        printf("Ola, Embarcatech!\n");
-        sleep_ms(1000);
-    }
-}
